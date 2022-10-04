@@ -6,6 +6,11 @@ view: order_items {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
+    link: {
+     label: "City Metrics Explore"
+        url: "https://www.google.com/search?q{{the_look}}"
+
+    }
   }
 
   dimension: inventory_item_id {
